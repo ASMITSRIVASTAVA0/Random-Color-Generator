@@ -1,0 +1,47 @@
+body{
+    text-align:center;
+    justify-content: center;
+}
+
+div{
+    height:100px;
+    width:500px;
+    border:1px solid black;
+    margin:auto;
+    border-radius: 0.7rem;
+    
+}
+*{
+    background-color: rgb(243, 214, 186);
+    /* font-family: fantasy; */
+    
+}
+button{
+    background-color: rgb(196, 206, 224);
+    color:crimson;
+    font-size:1.2rem;
+    border-radius: 0.6rem;
+    padding-left:0.9rem;
+    padding-right:0.9rem;
+
+
+}
+button:hover{
+    background-color: darkturquoise;
+}
+.heading{
+    font-size:2.5rem;
+    color:navy;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+@media (max-width:650px){
+    div{
+        height:20rem;
+        width:80%;
+    }
+    
+    button:hover{
+        background-color: darkturquoise;
+    }
+}
