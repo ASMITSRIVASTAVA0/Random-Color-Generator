@@ -6,10 +6,12 @@ jsbtn.addEventListener("click",function(){
     let randomColor=getRandomColor();
 
     h3.innerText=randomColor;
+    h3.style.color=randomColor;
 
     let divobj=document.querySelector("div");
     // divobj.style.backgroundColor="rgb(255, 255, 24)";
-    divobj.style.backgroundColor=getRandomColor();
+    // divobj.style.backgroundColor=getRandomColor();
+    divobj.style.backgroundColor=randomColor;
 
     console.log("random color generated");
 });
